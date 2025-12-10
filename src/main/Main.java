@@ -16,7 +16,7 @@ public class Main {
     public static void main(String[] args) {
 
         SwingUtilities.invokeLater(() -> {
-            JFrame ventana = new JFrame("Sistema Solar OpenGL Mejorado");
+            JFrame ventana = new JFrame("Sistema Solar");
             ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             ventana.setSize(1200, 900);
             ventana.setLocationRelativeTo(null);
