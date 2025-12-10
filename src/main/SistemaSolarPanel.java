@@ -1,3 +1,7 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
 package main;
 
 import com.jogamp.opengl.*;
@@ -5,12 +9,14 @@ import com.jogamp.opengl.awt.GLJPanel;
 import com.jogamp.opengl.util.FPSAnimator;
 import com.jogamp.opengl.util.gl2.GLUT;
 import com.jogamp.opengl.glu.GLU;
-
-// 🔹 NUEVOS IMPORTS PARA TEXTURAS
 import com.jogamp.opengl.util.texture.Texture;
 import com.jogamp.opengl.util.texture.TextureIO;
-
 import java.awt.event.*;
+
+/**
+ *
+ * @author omarramirez
+ */
 
 public class SistemaSolarPanel extends GLJPanel implements GLEventListener,
         MouseWheelListener, MouseMotionListener {
